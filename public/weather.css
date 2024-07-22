@@ -1,0 +1,49 @@
+.form {
+    padding-top: 44px;
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    
+}
+.heading {
+    padding-top: 75px;
+}
+.location {
+    padding-top: 22px;
+}
+.location-icon img{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.location-icon {
+    padding-top: 11px;
+}
+.notification{
+    justify-content: center;
+    display: flex;
+    padding-top: 11px;  
+}
+.notification p {
+    color : maroon;
+    font-size: 1.2em;
+}
+.weather-icon {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.temprature-value {
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;   
+}
+.temprature-description {
+    justify-content: center;
+    display: flex;   
+}
+.location-name {
+    justify-content: center;
+    display: flex;
+    height: 11vh;   
+}

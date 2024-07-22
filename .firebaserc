@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "myweb-e1eed",
+    "staging": "myweb-e1eed"
+  },
+  "targets": {},
+  "etags": {}
+}

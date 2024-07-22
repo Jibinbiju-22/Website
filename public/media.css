@@ -1,0 +1,98 @@
+/* Media Query for screens with a maximum width of 700px */
+@media (max-width: 700px) {
+    .nav-links{
+        position: absolute;
+        background: #916E99;
+        height: 50vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: right;
+        z-index: 2;
+    }
+    i.bi {
+        display:block; 
+        color: #FFFFFF;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+      }
+ 
+
+  #profile {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    gap: 2rem; /* Add space between elements */
+  }
+
+  .profile_pic_container {
+    height: 200px; /* Decrease profile picture height for smaller screens */
+    width: 200px; /* Decrease profile picture width for smaller screens */
+    margin: 0 auto; /* Center profile picture horizontally */
+  }
+
+  .profile_text {
+
+    max-width: 80%; /* Limit text width for better readability on smaller screens */
+  }
+    /* CONTACT */
+    #contact {
+        height: auto; /* Adjusted for smaller screens */
+        padding: 1rem; /* Adjusted for smaller screens */
+    }
+    .contact-info-container p {
+        font-size: 1rem; /* Adjusted for smaller screens */
+    }
+}
+@media (min-width: 701px) and (max-width: 1024px) {
+
+.nav-links {
+    position: absolute;
+    background: #916E99;
+    height: 44vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: right;
+    z-index: 2;
+}
+
+i.bi {
+    display: block;
+    color: #FFFFFF;
+    margin: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* CONTACT */
+#contact {
+    height: auto; /* Adjusted for smaller screens */
+    padding: 4rem; /* Adjusted for smaller screens */
+}
+
+.contact-info-upper-container {
+    margin: 0.5rem auto; /* Adjusted for smaller screens */
+    padding: 0.3rem;
+}
+
+}
+@media screen and (max-width: 380px){
+    .nav-links{
+        background: #916E99;
+        height: 60vh;
+        width: 200px;
+        right: -200px;
+        text-align: right;
+        z-index: 2;
+    }
+    i.bi {
+        color: #FFFFFF;
+      }
+      nav{
+        height: 9vh;
+    }
+    .contact-info-container p {
+        font-size: 0.7rem; /* Adjusted for smaller screens */
+    }
+    
+}
